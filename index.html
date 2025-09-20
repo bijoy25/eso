@@ -1,0 +1,206 @@
+
+
+<!-- FILE: index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bijoy — Professional Web Design & SEO</title>
+  <meta name="description" content="Bijoy — Web design, WordPress, E-commerce and SEO services. Professional, responsive and SEO-optimized websites for businesses.">
+  <meta name="keywords" content="Web Design, SEO, WordPress, E-commerce, Landing Page">
+  <meta name="author" content="Bijoy Sikder">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bijoy — Professional Web Design & SEO">
+  <meta property="og:description" content="Web design, WordPress and SEO services to grow your business online.">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Bijoy+Web+Design">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://project.bijoy.iceiy.com/">
+  
+  <!-- Tailwind Play CDN (good for demo) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* small visual tweaks */
+    .hero-bg{ background: linear-gradient(180deg,#0ea5a4 0%, #0284c7 100%);} 
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Bijoy — Web Design & SEO",
+    "url": "https://project.bijoy.iceiy.com/",
+    "logo": "https://via.placeholder.com/400x120.png?text=Bijoy+Logo",
+    "sameAs": ["https://facebook.com/","https://linkedin.com/"]
+  }
+  </script>
+</head>
+<body class="antialiased text-gray-800 bg-gray-50">
+  <!-- NAVBAR -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex justify-between items-center py-4">
+        <a href="index.html" class="flex items-center gap-3">
+          <img src="img/bijoy.jpeg" alt="Bijoy Logo" class="w-12 h-12 rounded-md">
+          <span class="text-xl font-bold">Bijoy</span>
+        </a>
+        <nav class="hidden md:flex gap-6 items-center">
+          <a href="index.html" class="hover:text-blue-600">Home</a>
+          <a href="about.html" class="hover:text-blue-600">About</a>
+          <a href="blog.html" class="hover:text-blue-600">Blog</a>
+          <a href="contact.html" class="text-white bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700">Contact</a>
+        </nav>
+        <div class="md:hidden">
+          <button id="menuBtn" aria-label="Open menu" class="p-2 rounded-md bg-gray-100">
+            <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+      <div class="px-4 py-3 flex flex-col gap-2">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="text-white bg-blue-600 px-3 py-2 rounded-md">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero-bg text-white">
+      <div class="max-w-6xl mx-auto px-6 py-20 lg:py-28">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Professional Websites that Rank & Convert</h1>
+            <p class="mt-4 text-lg opacity-90">I build responsive, fast and SEO-optimized websites for small businesses and startups. WordPress, WooCommerce, Landing Pages — all included.</p>
+            <div class="mt-6 flex gap-4">
+              <a href="contact.html" class="bg-white text-blue-600 px-6 py-3 rounded-md font-semibold shadow">Hire Me</a>
+              <a href="#services" class="border border-white px-6 py-3 rounded-md">My Services</a>
+            </div>
+            <ul class="mt-6 grid grid-cols-2 gap-2 text-sm opacity-90">
+              <li>✅ Fast Delivery</li>
+              <li>✅ SEO Friendly</li>
+              <li>✅ Responsive Design</li>
+              <li>✅ WooCommerce</li>
+            </ul>
+          </div>
+          <div class="hidden lg:block">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Web design" class="rounded-lg shadow-lg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="max-w-6xl mx-auto px-6 py-16">
+      <h2 class="text-2xl font-bold">Services I Offer</h2>
+      <p class="text-gray-600 mt-2">Complete solutions — from design to SEO and e-commerce.</p>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">Web Design</h3>
+          <p class="mt-2 text-sm text-gray-600">Custom responsive websites built with modern UI and best practices.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">SEO Optimization</h3>
+          <p class="mt-2 text-sm text-gray-600">On-page SEO, meta tags, speed optimization and schema implementation.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="font-semibold text-lg">WordPress & E-commerce</h3>
+          <p class="mt-2 text-sm text-gray-600">WooCommerce stores, product management and payment setup.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="bg-gray-100 py-16">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-bold">Portfolio (Sample Projects)</h2>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <a href="#" class="block bg-white rounded-lg shadow overflow-hidden hover:shadow-lg">
+            <img src="img/download.jpeg" alt="Project 1" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">Business Landing Page</h3>
+              <p class="text-sm text-gray-600 mt-2">Conversion-focused landing page for local business.</p>
+            </div>
+          </a>
+          <!-- Card 2 -->
+          <a href="#" class="block bg-white rounded-lg shadow overflow-hidden hover:shadow-lg">
+            <img src="img/download (1).jpeg" alt="Project 2" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">WordPress E-commerce</h3>
+              <p class="text-sm text-gray-600 mt-2">WooCommerce store with payment and shipping setup.</p>
+            </div>
+          </a>
+          <!-- Card 3 -->
+          <a href="#" class="block bg-white rounded-lg shadow overflow-hidden hover:shadow-lg">
+            <img src="img/Seo.png" alt="Project 3" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">SEO Optimized Blog</h3>
+              <p class="text-sm text-gray-600 mt-2">Keyword-optimized blog layout for organic traffic growth.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="max-w-6xl mx-auto px-6 py-16">
+      <h2 class="text-2xl font-bold">What clients say (demo)</h2>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-lg shadow">“Great service and fast delivery.”<div class="mt-3 text-sm font-semibold">— Rahim</div></div>
+        <div class="p-6 bg-white rounded-lg shadow">“Website helped increase sales.”<div class="mt-3 text-sm font-semibold">— Nusrat</div></div>
+        <div class="p-6 bg-white rounded-lg shadow">“SEO improved our Google ranking.”<div class="mt-3 text-sm font-semibold">— Shop Owner</div></div>
+      </div>
+    </section>
+
+    <!-- CTA FOOTER -->
+    <section class="bg-blue-600 text-white py-12">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+        <div>
+          <h3 class="text-2xl font-bold">Ready to grow your business?</h3>
+          <p class="mt-2">Get a free consultation and quote.</p>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <a href="contact.html" class="bg-white text-blue-600 px-6 py-3 rounded-md font-semibold">Get Started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t mt-8">
+    <div class="max-w-6xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-bold">Bijoy</h4>
+        <p class="text-sm text-gray-600 mt-2">Web Design, WordPress & SEO services.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Quick Links</h4>
+        <ul class="mt-2 text-sm text-gray-600">
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Contact</h4>
+        <p class="text-sm text-gray-600 mt-2">Email: you@domain.com<br>Phone: +8801XXXXXXXXX</p>
+      </div>
+    </div>
+    <div class="text-center text-sm text-gray-500 py-4">&copy; 2025 Bijoy. All rights reserved.</div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
+
